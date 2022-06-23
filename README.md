@@ -2,6 +2,7 @@
 
 ##Build
 To build locally you will need to run:
+-   npm install
 -   npm run migrate
 -   npm run seed
 -   npm run start
