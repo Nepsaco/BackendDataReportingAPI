@@ -1,4 +1,4 @@
-const parseCsv = require('../parseCsv');
+// const parseCsv = require('../parseCsv');
 /**
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> } 
