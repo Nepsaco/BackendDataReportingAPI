@@ -1,4 +1,4 @@
-const {parseCsv} = require('../parseCsv');
+const {parseCsv} = require('../parseCSV');
 const path = require('path');
 const homedir = require('os').homedir();
 /**
@@ -57,6 +57,7 @@ exports.seed = async function (knex) {
       release_date: new Date(release_date),
       revenue: parseInt(revenue, 10),
     })
+    console.log(production_companies)
     const productionCompanyArray = JSON.parse(production_companies.replace(/"/g, "'").replace(regex, '"'))
     productionCompanyArray.forEach(async (company) => {
       if (!productionIds[company.id]) {
