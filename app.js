@@ -7,7 +7,7 @@ app.use(bodyParser.json())
 app.use(movieRouter)
 
 app.get('/', (req, res) => {
-    res.status(200).send('Welcome to the Data Reporting project!')
+    res.status(200).send('Welcome to the Data Reporting project! Please visit docs/ to get started')
 })
 
 module.exports = app
