@@ -20,4 +20,6 @@ const parseCsv = (filePath) => {
   })
 }
 
-module.exports = parseCsv
+module.exports = {
+  parseCsv
+}
