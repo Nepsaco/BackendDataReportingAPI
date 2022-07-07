@@ -33,7 +33,7 @@ module.exports = {
                     INNER JOIN movie_production_companies mpc ON mpc.production_companies_id = pc.id \
                     INNER JOIN movies m ON m.id = mpc.movie_id \
                     WHERE DATE_PART('year', m.release_date) = ? \
-                    GROUP BY pc.id;", production_id)
+                    GROUP BY pc.id;", year)
                     .then((res) => {
                         return res.rows
                     })
