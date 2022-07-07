@@ -9,6 +9,12 @@ To build locally you will need to run:
 -   App will be hosted on port 9000
 -   Visiting localhost:9000/docs will allow you to see the app
 
+## Endpoints
+-   /api/production_companies
+--  production_id ex. 3
+--  year ex. 1995
+-   /api/movie_genres
+--  year ex. 1994
 
 ## Deployment
 -   Can be loaded from https://backend-data-reporting-api.herokuapp.com/
