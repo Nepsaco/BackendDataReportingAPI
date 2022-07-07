@@ -11,10 +11,10 @@ To build locally you will need to run:
 
 ## Endpoints
 -   /api/production_companies
---  production_id ex. 3
---  year ex. 1995
+    -  production_id ex. 3
+    -  year ex. 1995
 -   /api/movie_genres
---  year ex. 1994
+    -  year ex. 1994
 
 ## Deployment
 -   Can be loaded from https://backend-data-reporting-api.herokuapp.com/
@@ -24,9 +24,3 @@ To build locally you will need to run:
 ## API visualization
 -   To visualize the api and test enpoints got to https://backend-data-reporting-api.herokuapp.com/docs
 -   An ERD png is in the assets folder to get a look at my modes and relationships
-
-
-## To do
-- Get all of the seed data into the database from the csv. I was having trouble parsing the csv to load it into the seeds.
-- Add testing to api end points to make sure data coming back would match assumptions. I would have written tests in jest and accessed the endpoint to check if test data matched the endpoint.
-- Refactor for optimization. I only solved the problem but I did it using loops within loops. So being able to look at some functions again to refactor using better SQL statement or gather the data faster. Also there is a probelm of over fetching that I would relook at.
