@@ -1,5 +1,5 @@
-const {parseCsv} = require('../parseCsv');
 const path = require('path');
+const {parseCsv} = require(path.resolve(__dirname, '../parseCsv'));
 const homedir = require('os').homedir();
 /**
  * @param { import("knex").Knex } knex
